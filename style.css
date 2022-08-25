@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(https://cdn.pixabay.com/photo/2015/11/10/08/22/pay-1036469_960_720.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: 0;
+}
+
+.container {
+    background-color: rgb(79, 167, 182);
+    border-radius: 5px;
+    border: 2px solid rgb(3, 38, 35);
+    width: 500px;
+    max-width: 100%;
+    padding: 30px 50px;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+}
+
+form {
+    padding: 0px 40px 30px;
+}
+
+input {
+    border: 2px solid #3E445B;
+    border-radius: 5px;
+    outline: 0;
+    display: block;
+    font-size: 25px;
+    width: 100%;
+    padding: 15px;
+}
+
+#button {
+    background-color: #addef5;
+    border-radius: 5px;
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #024bc1;
+    transition: 0.3s;
+}
+
+#res{
+    padding: 15px;
+    font-size: 30px;
+}
